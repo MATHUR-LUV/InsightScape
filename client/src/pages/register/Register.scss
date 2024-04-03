@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #484242;
+    height: 100vh;
+    width: 100vw;
+    gap: 10px;
+    
+
+    .logo{
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 250px;
+            height: 150px;
+            margin: auto;
+            // margin-top: 10px;
+            border-radius: 15px;
+        }
+    }
+
+    
+
+    .card{
+        // border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        // height: 250px;
+        h1{
+            font-size: 60px;
+            color: goldenrod;
+        }
+
+
+
+        form{
+            display: flex;
+
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            .file {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 50px;
+              }
+      
+              label {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                color: gray;
+                font-size: 14px;
+      
+                .imgContainer {
+                  position: relative;
+                  img {
+                    width: 80px;
+                    height: 80px;
+                    object-fit: cover;
+                  }
+      
+                  .icon {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    font-size: 30px;
+                    color: lightgray;
+                    cursor: pointer;
+                  }
+                }
+              }
+            
+            .icon{
+                width: 20px;
+                height: 20px;
+            }
+            input{
+                width: 100%;
+                background: none;
+                border: none;
+                border-bottom: 1px solid gray;
+                gap: 10px;
+                padding: 10px;
+                color: wheat;
+                
+            }
+            button{
+                background: none;
+                cursor: pointer;
+                padding: 10px;
+                color: bisque;
+                font-size: 20px;
+                width: 50%;
+            }
+
+            p{
+                color: bisque;
+            }
+
+            span{
+                color: antiquewhite;
+            }
+        }
+    }
+}
