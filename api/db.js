@@ -2,8 +2,8 @@ import mysql from "mysql";
 import dotenv from 'dotenv'
 dotenv.config();
 export const db = mysql.createConnection({
-    host:"localhost",
-    user:"root",
+    host:"sql6.freemysqlhosting.net",
+    user:"sql6696912",
     password: process.env.PASSWORD,
-    database:"insight_scape"
+    database:"sql6696912"
 })
